@@ -1,0 +1,384 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Kaushan+Script&family=Pacifico&display=swap');
+*{
+    margin: 0;
+    padding:0;
+    overflow-y: overlay;
+    overflow-x: overlay;
+    /* font-family: 'Dancing Script', cursive; */
+    /* font-family: 'Kaushan Script', cursive; */
+    /* font-family: 'Pacifico', cursive; */
+    
+
+}
+.nav li{
+    list-style:none;
+    display: inline;
+    color: black;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+
+}
+.nav a{
+    /* display: inline; */
+    float: right;
+    padding-left: 150px;
+    padding-top: 0;
+    /* padding-bottom: 15px; */
+    color: black;
+    text-decoration:none;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+
+}
+.nav {
+    background-color: white;
+    padding-top: 19px;
+    font-size: x-large;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+}
+.top{
+    padding: 40px;
+    text-align: center;
+    font-size: xx-large;
+}
+.top p{
+    padding: 10px;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    text-align: center;
+
+}
+.topBtn{
+    padding-top: 50px;
+    font-size: xx-large;
+    padding: 20px;
+    background-color: black;
+    color: antiquewhite;
+    border-radius: 50px;
+}
+hr{
+    text-decoration: dotted;
+}
+.middle img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    width: 90%;
+
+}
+.middle-middle{
+    background-color: gray;
+    display: inline-block;
+   
+    
+}
+.middle-middle h1{
+    text-align: center;
+    padding: 70px;
+}
+.middle-middle-img img{
+    height: auto;
+    width: 45%;
+    padding-left: 10px;
+    display: inline;
+
+    /* margin: 100px auto 100px auto; */
+  
+    
+}
+.middle-middle-img h1{
+    text-align: left;
+    padding: 0px;
+}
+.middle-middle-img p{
+    /* text-align: left; */
+    float: left;
+    line-height: 1.5rem;
+    font-size: large;
+    width: 50%;
+    text-align: center;
+    padding: 0px;
+    /* margin: 100px auto 100px auto; */
+}
+.img2 {
+    height: auto;
+    width: 100%;
+    float: right;
+    padding-right: 40px;
+    /* position: relative; */
+    /* bottom: 400px; */
+    
+    /* position: relative;
+    left: 30%; */
+
+
+}
+.h2{
+    position: relative;
+    bottom: 160px;
+    text-align: center;
+}
+
+/*.img2 h1{
+     text-align: center;
+    position: relative;
+    left:550px;
+    bottom: 900px;
+    line-height:1;
+    width: 50%;
+    padding-left: 10px;} */
+
+/* .img2 p{
+    position: relative;
+    left:550px;
+    bottom: 900px;
+    line-height:1;
+    width: 50%;
+    padding-left: 10px;
+} */
+.menu{
+    background-color: #82954B;
+    text-align: center;
+    /* padding: 10px; */
+    position: relative;
+    bottom: 5px;
+}
+
+.menu h4{
+    font-size: xx-large;
+    text-align: center;
+    padding: 30px;
+}
+.button {
+    border-top: 1px solid #2f8bc4;
+    background: #65a9d7;
+    background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#65a9d7));
+    background: -webkit-linear-gradient(top, #3e779d, #65a9d7);
+    background: -moz-linear-gradient(top, #3e779d, #65a9d7);
+    background: -ms-linear-gradient(top, #3e779d, #65a9d7);
+    background: -o-linear-gradient(top, #3e779d, #65a9d7);
+    padding: 20px 24px;
+    -webkit-border-radius: 13px;
+    -moz-border-radius: 13px;
+    border-radius: 13px;
+    -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    box-shadow: rgba(0,0,0,1) 0 1px 0;
+    text-shadow: rgba(0,0,0,.4) 0 1px 0;
+    color: white;
+    /* text-align: center; */
+    font-size: 19px;
+    font-family: Georgia, serif;
+    text-decoration: none;
+  
+    vertical-align: middle;
+    }
+ .button:hover {
+    border-top-color: #28597a;
+    background: #28597a;
+    color: #ccc;
+    }
+ .button:active {
+    border-top-color: #1b435e;
+    background: #1b435e;
+    }
+    .aboutus{
+        position: relative;
+        bottom: 5px;
+        overflow-y: overlay;
+        overflow-x: overlay;
+    }
+    .aboutus .about1{
+        height: auto;
+        width: 70%;
+
+    }
+    .aboutus .about2 img{
+        height: auto;
+        width: 50%;
+        float:right;
+        /* position: relative; */
+        /* left: 60%; */
+
+
+    }
+    .aboutus .about2 h4{
+        text-align: center;
+        position: relative;
+        top: 120px;
+        font-style: oblique;
+
+    }
+    .aboutus .about2 p{
+        text-align: center;
+        position: relative;
+        top: 130px;
+        font-weight: 500;
+
+    }
+    .aboutus .about3 img{
+        height: auto;
+        width: 100%;
+        position: relative;
+        top: 20px;
+    }
+    
+   
+    
+    .btn {
+        background: black;
+        background-image: -webkit-linear-gradient(top, #3498db, #699ab8);
+        background-image: -moz-linear-gradient(top, #3498db, #121314);
+        background-image: -ms-linear-gradient(top, #3498db, #699ab8);
+        background-image: -o-linear-gradient(top, #3498db, #17181a);
+        background-image: linear-gradient(to bottom, #3498db, #0a0b0c);
+        -webkit-border-radius: 28;
+        -moz-border-radius: 28;
+        border-radius: 28px;
+        font-family: Arial;
+        color: #ffffff;
+        font-size: 29px;
+        padding: 10px 20px 10px 30px;
+        text-decoration: none;
+        /* display: flex; */
+        position: relative;
+        left: 430px;
+        /* padding: 5px; */
+        margin-bottom: 50px;
+        top: 25px;
+        /* justify-content: center;1 */
+        
+      }
+      
+      .btn:hover {
+        background: #3cb0fd;
+        background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+        background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+        background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+        background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+        background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+        text-decoration: none;
+      }
+      .container{
+          display: inline-block;
+          width: 50%;
+      }
+      .form{
+          margin: 0;
+          padding: 0px;
+      }
+      .form h1{
+          text-align:  center;
+          font-size: xx-large;
+          padding: 20px;
+          /* margin: 50px; */
+      }
+     /* Style inputs, select elements and textareas */
+input[type=text], select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+  }
+  
+  /* Style the label to display next to the inputs */
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  /* Style the submit button */
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  /* Style the container */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  .container h1{
+      text-align: center;
+      color: black;
+  }
+  
+  /* Floating column for labels: 25% width */
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  /* Floating column for inputs: 75% width */
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+ .map{
+     float: right;
+      width: 45%;
+      position: relative;
+      height: 485px;
+      right: 10px;
+  }
+  .map h1{
+      text-align: center;
+      background-color: rgb(220, 216, 216);
+  }
+ 
+  /* footer   */
+  .bottom-container{
+    background-color: #66BFBF;
+    padding: 50px   ;
+
+}
+.bottom-container a{
+    padding: 40px;
+    /* justify-content: center; */
+    padding-left: 200px ;
+    text-decoration: none;
+}
+.bottom-container p{
+    padding-left: 400px;
+    position: relative;
+    top: 50px;
+}
+
+ 
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .col-25,  .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+ 
+  @media screen and (max-width: 800px) {
+    .topcontainer {
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+  }
+      
+      
+      
+      
+      
